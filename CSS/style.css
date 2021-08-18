@@ -1,0 +1,33 @@
+h2 {
+  color: blue;
+  font-size: 80px;
+  cursor: pointer;
+  background-color: yellow;
+}
+p {
+  line-height: 54px;
+  font-size: 20px;
+  font-family: verdana;
+}
+
+.main-title {
+  color: aquamarine;
+}
+
+body {
+  color: #f72585;
+  background-color: lightblue;
+}
+center {
+  font-size: 30px;
+
+  color: brown;
+  border: 10px solid white;
+}
+button {
+  color: white;
+  background-color: #000;
+  margin: 0;
+  padding: 15px 20px;
+  border: none;
+}
