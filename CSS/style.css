@@ -1,4 +1,4 @@
-h2 {
+/* h2 {
   color: blue;
   font-size: 80px;
   cursor: pointer;
@@ -30,4 +30,124 @@ button {
   margin: 0;
   padding: 15px 20px;
   border: none;
+}
+
+ul li .header-link {
+  color: red;
+}
+
+.header-link {
+  color: yellow;
+}
+
+.main-link {
+  color: #f72585;
+}
+
+.footer-link {
+  color: black;
+}
+
+  color: forestgreen;
+}
+/* perdoret per me komentu ni nivel(rresht) ner to qe osht */
+/* main > h2 {
+  color: forestgreen;
+}
+/* perdoret per me komentu ni nivel(rresht) ner to qe osht */
+/* div > h2 {
+  color: black;
+}
+*/
+
+/* .box {
+  width: 200px;
+  height: 200px;
+  background-color: #f72585;
+}
+
+.box:hover {
+  background-color: blue;
+}
+
+.important-heading {
+  color: red;
+}
+.important-heading::before {
+  content: ">>>";
+}
+
+.important-heading::after {
+  content: "...";
+}
+
+.link-pseudo {
+  color: red;
+}
+.link-pseudo::before {
+  content: "";
+  width: 20px;
+  height: 18px;
+  display: inline-block;
+  background: url("../images/play-button-icon.svg") no-repeat center;
+} 
+
+/* .block {
+  width: 200px;
+  margin: 50px;
+  padding: 50px 25px;
+  background-color: yellow;
+  border: 5px dotted black;
+  display: inline-block;
+}
+
+.block p {
+  height: 100px;
+  overflow: auto;
+}
+.block a {
+  background-color: red;
+  padding: 20px;
+  display: inline-block;
+} */
+
+h1::before {
+  content: ">>>";
+  width: 20px;
+  height: 18px;
+}
+
+q::before {
+  content: "«";
+  color: blue;
+}
+
+q::after {
+  content: "»";
+  color: red;
+}
+
+.ribbon {
+  background-color: #5bc8f7;
+}
+
+.ribbon::before {
+  content: "Look at this orange box.";
+  background-color: #ffba10;
+  border-color: black;
+  border-style: dotted;
+}
+.my-paragraph {
+  padding: 20px;
+  border: 4px dashed lightgray;
+}
+
+.my-paragraph::before {
+  content: "This is before!";
+  color: hotpink;
+}
+
+.my-paragraph::after {
+  content: "This is after!";
+  color: steelblue;
 }
