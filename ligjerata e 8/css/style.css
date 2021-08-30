@@ -1,0 +1,11 @@
+.boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box {
+  margin: 20px;
+  width: 400px;
+  height: 200px;
+  background-color: green;
+}

@@ -1,0 +1,33 @@
+header {
+  margin-top: 40px;
+}
+
+header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-navigation {
+  display: flex;
+}
+.header-navigation ul {
+  display: flex;
+}
+
+.header-navigation li {
+  list-style-type: none;
+  margin-right: 25px;
+}
+
+.header-navigation li:last-child {
+  margin-right: 0;
+}
+
+.header-navigation li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #2f281e;
+  text-decoration: none;
+}
