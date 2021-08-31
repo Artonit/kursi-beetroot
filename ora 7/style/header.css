@@ -19,6 +19,9 @@ header .wrapper {
   margin-right: 25px;
 }
 
+.header-navigation .btn {
+  margin-left: 15px;
+}
 .header-navigation li:last-child {
   margin-right: 0;
 }
@@ -30,4 +33,44 @@ header .wrapper {
   line-height: 28px;
   color: #2f281e;
   text-decoration: none;
+}
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.header-section__text {
+  margin-top: -110px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.header-section__tittle {
+  margin-bottom: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  padding-left: 42px;
+}
+
+.header-section-paragraph {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  padding-left: 42px;
+}
+
+.header-form {
+  padding-left: 42px;
+  padding-top: 60px;
+  color: #ff9900;
+}
+.header-form a {
+  color: #ff9900;
+  text-decoration: underline;
 }
