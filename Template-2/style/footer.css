@@ -80,6 +80,10 @@
   background: url(../images/pinterest.svg);
 }
 
+.footer-section {
+  background-color: #fafafa;
+}
+
 .footer-section .footer-underile__text h4 {
   font-family: Gilroy;
   font-size: 14px;
@@ -102,6 +106,7 @@
   color: orange;
 }
 .footer-section .footer-upline a img {
+  margin-top: 100px;
   margin-left: 330px;
 }
 
@@ -111,6 +116,7 @@
 }
 
 .footer-section .footer-upline li {
+  margin-top: 100px;
   list-style-type: none;
   margin-right: 25px;
   color: #000000;
