@@ -1,0 +1,131 @@
+.footer .container {
+  margin: 0 auto;
+  max-width: 1100px;
+  margin-bottom: 20px;
+  left: 181px;
+  top: 0px;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+  margin-top: 55px;
+  margin-bottom: 30px;
+
+  text-align: center;
+
+  color: #000000;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+
+  transition: all 0.2s linear;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+.social-icons .facebook {
+  background: url(../images/facebook.svg);
+}
+
+.social-icons .twitter {
+  background: url(../images/twitter.svg);
+}
+
+.social-icons .instagram {
+  background: url(../images/instagram.svg);
+}
+.social-icons .youtube {
+  background: url(../images/youtube.svg);
+}
+
+.social-icons .pinterest {
+  background: url(../images/pinterest.svg);
+}
+
+.footer-section .footer-underile__text h4 {
+  font-family: Gilroy;
+  font-size: 14px;
+  line-height: 140.62%;
+  text-align: center;
+
+  color: #000000;
+  padding-bottom: 45px;
+}
+
+.footer-section .footer-upline {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-top: 113px;
+  margin-bottom: 50px;
+}
+
+.footer-section .footer-upline a {
+  color: orange;
+}
+.footer-section .footer-upline a img {
+  margin-left: 330px;
+}
+
+.footer-section .footer-upline ul {
+  display: flex;
+  margin-right: 158px;
+}
+
+.footer-section .footer-upline li {
+  list-style-type: none;
+  margin-right: 25px;
+  color: #000000;
+  font: bold;
+}
+.footer-section .footer-upline li a {
+  color: #000000;
+}
+
+.footer-section .footer-list {
+  font-size: larger;
+  font: bolder;
+}
+
+.footer-section hr {
+  width: 1264px;
+  margin-left: 300px;
+}
