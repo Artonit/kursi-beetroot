@@ -1,0 +1,83 @@
+.main-form {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.main-form__field {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.main-form__field input {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-bottom: 2px solid black;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-form__field input::placeholder {
+  color: red;
+}
+
+.main-form button {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: transparent;
+  background: orange;
+  border-radius: 3px orange;
+  color: white;
+}
+
+/* .main-form button:hover {
+  color: white;
+  background-color: orange;
+  border-radius: 20px;
+  transform: rotate(180deg);
+}
+
+@keyframes scale-animation {
+  0% {
+    transform: scale(1);
+    background-color: black;
+  }
+  50% {
+    transform: scale(2);
+    background-color: yellow;
+  }
+  100% {
+    transform: scale(1);
+    background-color: red;
+  }
+}
+@keyframes vertical-animation {
+  0% {
+    transform: translateY(0);
+    background-color: black;
+  }
+  50% {
+    transform: translateY(400px);
+    background-color: yellow;
+  }
+  100% {
+    transform: translateY(0);
+    background-color: red;
+  }
+}
+
+.animation-box {
+  width: 200px;
+  height: 200px;
+  margin: 200px;
+  border: 2px solid green;
+  animation: scale-animation 3s 1;
+}
+
+.animation-box--vertical {
+  animation: vertical-animation 3s infinite;
+} */

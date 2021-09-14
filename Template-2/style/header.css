@@ -14,8 +14,9 @@ header .wrapper .logo {
 }
 .header-navigation {
   display: flex;
+  font-size: 30px;
 }
-.header-navigation ul {
+.wrapper .header-navigation ul {
   display: flex;
 }
 
@@ -53,7 +54,7 @@ header .wrapper .logo {
 .header-navigation li a {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 28px;
   color: #2f281e;
   text-decoration: none;
@@ -71,6 +72,9 @@ header .wrapper .logo {
 }
 .header-section .header-section__icon img {
   height: 851px;
+}
+.header-section--reverse .header-section__icon img {
+  margin-top: -11px;
 }
 .header-section--reverse {
   flex-direction: row-reverse;
