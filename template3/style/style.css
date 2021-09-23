@@ -66,7 +66,7 @@
 
 .features-list__item h3 {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 600px;
   color: #2f281e;
   line-height: 33px;
   margin-bottom: 15px;
@@ -245,7 +245,7 @@
   content: "";
   width: 54px;
   height: 24px;
-  background: url(../images/tick.svg) no-repeat center;
+  background: url(../images/icon-tick.svg) no-repeat center;
 }
 
 .block-section__image1 {

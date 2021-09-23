@@ -1,7 +1,9 @@
 header {
   margin-top: 40px;
 }
-
+header .container {
+  margin-top: -40px;
+}
 header .wrapper {
   display: flex;
   align-items: center;
@@ -69,6 +71,7 @@ header .wrapper {
 }
 .header-section__icon {
   margin-right: 80px;
+  width: 100%;
 }
 
 .header-form {

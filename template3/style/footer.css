@@ -24,6 +24,9 @@
 }
 .main-form__field textarea {
   background: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  resize: none;
 }
 
 .main-form__field input::placeholder {

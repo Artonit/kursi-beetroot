@@ -1,0 +1,213 @@
+@media only screen and (max-width: 767px) {
+  .retainer-section__button {
+    width: 230px;
+    height: 66px;
+  }
+
+  .block-section {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .block-section__name {
+    font-size: 30px;
+  }
+
+  .block-section__text {
+    width: 300px;
+    margin-left: -10px;
+  }
+  .block-section__image1 {
+    width: 477px;
+    height: 264px;
+  }
+
+  .retainer-tittle h2 {
+    font-size: 30px;
+  }
+  .retainer-section {
+    padding: 45px;
+  }
+  .main-form {
+    width: 214px;
+    margin-left: 76px;
+  }
+  .main-form__buton {
+    margin-left: 1px;
+  }
+
+  .about-section ul {
+    width: 200px;
+    margin-left: 72px;
+    flex-direction: column;
+  }
+
+  .about-section hr {
+    width: 374px;
+    margin-left: 0px;
+  }
+
+  .about-section .about-section__card {
+    height: auto;
+    margin: 0px;
+  }
+  .about-section__card-text p {
+    text-align: center;
+  }
+
+  .about-section .card-text-2nth {
+    width: 370px;
+  }
+
+  .about-section .card-text-2nth p {
+    width: 300px;
+  }
+  .about-section__icon {
+    margin-top: 0px;
+  }
+
+  .about-section__icon li {
+    margin-bottom: 20px;
+  }
+
+  .experience-list__item {
+    margin-bottom: 100px;
+  }
+
+  .experience-section {
+    flex-direction: column;
+  }
+  .experience-list {
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .header-section__icon img {
+    width: 315px;
+    margin-left: 78px;
+  }
+
+  .features-list {
+    align-items: center;
+    padding-left: 49px;
+    flex-direction: column;
+  }
+
+  .features-list__item {
+    margin-bottom: 100px;
+    width: 325px;
+  }
+  .header-section {
+    flex-direction: column;
+    margin-top: 120px;
+  }
+  .header-section__text {
+    width: 300px;
+    margin-left: 0px;
+  }
+
+  .hamburger {
+    z-index: 3;
+    position: relative;
+  }
+
+  .hamburger span {
+    width: 30px;
+    height: 5px;
+    display: block;
+    background: orange;
+  }
+
+  .hamburger span:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .header-navigation {
+    margin-right: 0;
+    margin-left: 0;
+    top: 0;
+    left: 100%;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  .header-navigation.active {
+    left: 0;
+  }
+
+  .header-navigation ul {
+    margin-right: 0;
+    flex-direction: column;
+  }
+
+  .header-navigation li {
+    margin: 0;
+    text-align: center;
+  }
+  .header-navigation li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .header-navigation li a {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 1305px;
+  }
+
+  .wrapper .logo {
+    margin-bottom: 50px;
+  }
+
+  .header-navigation ul {
+    margin-left: 200px;
+  }
+
+  .header-section__text {
+    width: 800px;
+  }
+
+  .header-section__icon {
+    margin-left: 145px;
+  }
+
+  .features-section {
+    width: 1300px;
+  }
+
+  .features-list {
+    margin-left: 87px;
+  }
+
+  .experience-list {
+    margin-left: 80px;
+  }
+
+  .about-section {
+    width: 1300px;
+  }
+
+  .about-section__icon ul {
+    margin-left: 235px;
+  }
+
+  .about-section hr {
+    margin-left: 163px;
+    margin-bottom: -50px;
+  }
+
+  .block-section {
+    width: 1300px;
+    margin-bottom: -67px;
+  }
+}
