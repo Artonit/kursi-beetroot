@@ -9,6 +9,10 @@ header .wrapper {
   align-items: center;
   justify-content: space-between;
 }
+
+.wrapper .logo {
+  width: 800px;
+}
 .header-navigation {
   display: flex;
   margin-left: 150px;
@@ -71,7 +75,6 @@ header .wrapper {
 }
 .header-section__icon {
   margin-right: 80px;
-  width: 100%;
 }
 
 .header-form {
