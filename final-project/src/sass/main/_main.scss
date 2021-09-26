@@ -1,0 +1,114 @@
+body {
+  @include flexCenter(true, false);
+}
+.card-section {
+  width: 1231px;
+  .container {
+    background: #131313;
+    width: 1213px;
+  }
+
+  &__tittle {
+    padding-bottom: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #1f1f1f;
+    text-align: center;
+  }
+  .cards {
+    width: 1231px;
+    padding-bottom: 20%;
+    &-text {
+      display: flex;
+      flex-direction: column;
+      width: 255px;
+    }
+    ul {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 13px;
+    }
+    li {
+      border: 1px solid white;
+      width: 298px;
+
+      background: #ffffff;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 6px;
+    }
+    h3 {
+      font-family: Poppins;
+      padding-bottom: 20px;
+      font-weight: 500;
+      font-size: 19px;
+
+      color: #000000;
+    }
+
+    p {
+      font-family: Poppins;
+      padding-bottom: 20px;
+
+      font-weight: 300;
+      font-size: 16px;
+
+      color: #444444;
+    }
+    p::before {
+      content: "City:";
+      font-family: Poppins;
+
+      font-weight: 300;
+      font-size: 14px;
+
+      color: rgba(0, 0, 0, 0.35);
+    }
+  }
+}
+
+.view-section {
+  width: 1226px;
+  &__tittle {
+    margin-bottom: 50px;
+  }
+  .views {
+    margin-bottom: 22%;
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      color: white;
+      right: 3%;
+      font-family: Poppins;
+      font-size: 20px;
+      color: #ffffff;
+    }
+  }
+  li:nth-of-type(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 609px;
+  }
+
+  &__tittle {
+    font-family: Poppins;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+
+    color: #1f1f1f;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 13px;
+  }
+  li {
+    width: 299px;
+  }
+}
