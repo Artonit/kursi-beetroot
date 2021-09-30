@@ -1,0 +1,185 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .view-section .views ul {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 13px;
+    row-gap: 10px;
+  }
+  .slider-Text {
+    top: 3.1%;
+    left: 14px;
+    font-size: 42px;
+  }
+  .search-Bar {
+    width: 437px;
+  }
+  .main-Booking__Div {
+    transform: translate(-118%, 85%);
+  }
+  .images-Div {
+    margin-top: 50%;
+  }
+  .cards-Div .card-section .cards {
+    width: 715px;
+  }
+  .cards-Div .card-section .cards ul {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 13px;
+    padding-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header-Wrap {
+    flex-direction: column;
+    width: 374px;
+    .search-Bar {
+      width: 365px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      .restaurant-Div input {
+        width: 20px;
+      }
+    }
+  }
+
+  .about-section .about-info ul {
+    width: 354px;
+
+    .location .location-info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .about-section .about-info .food .food-info {
+    width: 200px;
+    ul {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      li {
+        width: 100px;
+      }
+    }
+  }
+
+  .about-section .about-info .drinks {
+    width: 230px;
+    .drinks-info {
+      ul {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        li {
+          width: 100px;
+        }
+      }
+    }
+  }
+
+  .about-section .about-info .reviews textarea {
+    width: 200px;
+    height: 162px;
+  }
+
+  .main-Booking__Div {
+    width: 370px;
+    transform: translate(-348px, 95%);
+    margin-left: -19px;
+    .book-Table__Text {
+      width: 333px;
+      font-size: 17px;
+      text-align: center;
+    }
+    .booking-Div {
+      width: 371px;
+      .booking-Date {
+        width: 100px;
+      }
+      input {
+        width: 300px;
+      }
+      .available-Tables__Div {
+        width: 326px;
+      }
+      .booking-Available {
+        width: 128px;
+      }
+      .tables {
+        width: 300px;
+        column-gap: 0px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 22px;
+      }
+      .check-box {
+        width: 315px;
+        font-size: 15px;
+        h1 {
+          padding-right: 8px;
+          margin-top: 15px;
+        }
+        .main-form__field {
+          width: 130px;
+        }
+      }
+      .button {
+        width: 293px;
+      }
+    }
+  }
+
+  .images-Div {
+    margin-top: 170%;
+    width: 374px;
+  }
+
+  .slider-Div {
+    margin-top: 126px;
+    width: 374px;
+    P {
+      left: 10px;
+      font-size: 20px;
+      top: 3.1%;
+    }
+  }
+  .footer-Wrap {
+    width: 374px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    padding-bottom: 22px;
+  }
+  .footer-addres {
+    width: 283px;
+    padding-bottom: 29px;
+  }
+  .footer-navigation {
+    padding-left: 85px;
+  }
+  .cards-Div .card-section {
+    width: 281px;
+  }
+  .cards-Div .card-section .cards ul {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 13px;
+  }
+
+  .view-section .views {
+    width: 375px;
+    ul {
+      grid-template-columns: repeat(1, 1fr);
+      column-gap: 0px;
+      li:nth-of-type(1) {
+        width: 374px;
+      }
+      li {
+        width: 188px;
+        .centered {
+          margin-top: -85px;
+          right: 4%;
+        }
+      }
+    }
+  }
+}

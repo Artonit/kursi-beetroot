@@ -2,61 +2,68 @@
   background: #131313;
   width: 100%;
 
-  .footerWrap {
+  .footer-Wrap {
     display: flex;
     padding-top: 83px;
     flex-wrap: wrap;
-  }
-  .footer-logo {
-    display: auto;
-  }
-  .footer-addres {
-    color: white;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    padding-left: 18%;
-    line-height: 35px;
-  }
-  .footer-navigation {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-    ul {
-      color: white;
+    .footer-logo {
       display: auto;
-      font-size: 16px;
-      line-height: 27px;
     }
-    li {
+    .footer-addres {
+      color: white;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding-left: 18%;
+      line-height: 35px;
+      .adress {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        padding-bottom: 40px;
+        font-family: Poppins;
+      }
+      .number {
+        border-bottom: 1px solid white;
+        width: 155px;
+        font-size: 19px;
+        font-family: Poppins;
+      }
+      .email {
+        border-bottom: 1px solid white;
+        width: 201px;
+        font-size: 19px;
+        font-family: Poppins;
+      }
     }
-  }
+    .footer-navigation {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 20px;
+      font-family: Poppins;
+      ul {
+        color: #ffffff;
 
-  .footer-paragraph {
-    color: #ffffff;
-    padding-bottom: 44px;
-    padding-top: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    opacity: 0.65;
-    font-family: Poppins;
-    font-size: 16px;
-  }
-  .adress {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    padding-bottom: 40px;
-  }
-  .number {
-    border-bottom: 1px solid white;
-    width: 130px;
-    font-size: 19px;
-  }
-  .email {
-    border-bottom: 1px solid white;
-    width: 175px;
-    font-size: 19px;
+        opacity: 0.75;
+        display: auto;
+        font-size: 16px;
+        line-height: 27px;
+      }
+
+      .list2 {
+        padding-right: 70px;
+      }
+    }
+    .footer-paragraph {
+      color: #ffffff;
+      padding-bottom: 44px;
+      padding-top: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      opacity: 0.65;
+      font-family: Poppins;
+      font-size: 16px;
+    }
   }
 }

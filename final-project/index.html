@@ -9,15 +9,247 @@
     />
     <title>Project Name</title>
     <link rel="stylesheet" href="dist/css/app.min.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header id="header" class="main_header">
-      <div class="headerWrap"></div>
+      <div class="header-Wrap">
+        <img width="103px" height="36px" src="./src/images/DINING.svg" alt="" />
+
+        <div class="search-Bar">
+          <div class="location-Div">
+            <img
+              width="14px"
+              height="19px"
+              style="margin-right: 10px"
+              src="./src/images/location_on_24px.svg"
+              alt=""
+            />
+            <p class="heading-Text">Choose Location</p>
+            <img width="10px" height="5px" src="./src/images/1.svg" alt="" />
+          </div>
+
+          <div class="separation-Div"></div>
+
+          <div class="restaurant-Div">
+            <img
+              width="11px"
+              height="19px"
+              style="margin-right: 10px"
+              src="./src/images/2.svg"
+              alt=""
+            />
+            <input
+              type="text"
+              id="name"
+              name="Restaurant"
+              required
+              minlength="4"
+              maxlength="8"
+              style="border: none; flex: 1"
+              placeholder="Restaurant"
+            />
+            <img
+              width="20px"
+              height="20px"
+              style="margin-right: 10px"
+              src="./src/images/3.svg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="profile-Div">
+          <img
+            width="12px"
+            height="15px"
+            style="margin-right: 10px"
+            src="./src/images/4.svg"
+            alt=""
+          />
+          <p class="heading-Text" style="color: white">Log In</p>
+        </div>
+        
+      </div>
     </header>
 
     <main>
-      <div class="container">
+      
+        <div class="slider-Div">
+          <img src="./src/images/5.jpg" width="100%" alt="" />
+          <p class="slider-Text">Casa Del Rio</p>
+        </div>
+
+       
+        </class>
+        <div class="container">
+        <div class="about-section">
+    
+          <div class="about-info">
+
+            <div class="about-info__text">
+              <ul>
+                <li class="location">
+                  <span>Location:</span>
+                  <div class="location-info">
+                    <p>Malmo, B Street, n-14</p>
+                  <p>Open Hours: 08:00-24:00</p>
+                  <div class="food-menu__logo">
+                    <img src="./src/images/12.svg" alt="">
+                  <p>Food Menu</p>
+                  </div>
+                 
+                  </div>
+                  
+                </li>
+                <li class="about">
+                  <span>About:</span>
+                  <p>
+                    Hershey's oldest freestanding restaurant. A local favorite
+                    for 83+ years, and <br />
+                    featuring our famous DeAngelis spaghetti sauces and our
+                    famous Upside <br />
+                    Down pizza. Homemade, delicious Italian dishes, featuring
+                    seafood, steaks, <br />
+                    and pasta.. <a href="">See more</a>
+                  </p>
+                </li>
+                <li class="food">
+
+                  <span>Food:</span>
+                  <div class="food-info">
+                    <ul>
+                      <li>French</li>
+                    <li>Italian</li>
+                    <li>Traditional</li>
+                    <li>Seafood</li>
+                    <li>Fries</li>
+                    <li>Swedish</li>
+                    </ul>
+                  </div>
+                  
+                </li>
+                <li class="drinks">
+                  <span>Drinks:</span>
+                  <div class="drinks-info">
+                    <ul>
+                      
+                        <li>Wine</li>
+                  <li>Beer</li>
+                  <li>Cocktail</li>
+                  <li>Juices</li>
+                  <li>Smoothies</li>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                  
+                </li>
+                <li class="info">
+                  <span>Info:</span>
+                  <p>
+                    Our summer terrace is only open from 18:00 to 24:00 and we
+                    only serve <br />
+                    alcohol from 16:00.
+                  </p>
+                </li>
+                <li class="reviews">
+                  <span>Reviews:</span>
+                  <textarea
+                    placeholder=""
+                    id="message"
+                    cols="30"
+                    rows="5"
+                  ></textarea>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="main-Booking__Div">
+            <p class="book-Table__Text">Book your table and get 50% off</p>
+  
+            <div class="booking-Div">
+              <p class="booking-Date">Date</p>
+  
+              <input
+                class="select-Date__Div"
+                type="date"
+                id="start"
+                name="trip-start"
+                value="Monday, 22 Jul"
+              />
+  
+              <div class="available-Tables__Div">
+                <p class="booking-Available">Available Tables</p>
+                <div class="tables">
+                  <div class="table-Div">
+                    <p>12: 00</p>
+                    <p>0 tables</p>
+                  </div>
+                  <div class="table-Div">
+                    <p>13: 00</p>
+                    <p>0 tables</p>
+                  </div>
+                  <div class="table-Div">
+                    <p>14: 00</p>
+                    <p>0 tables</p>
+                  </div>
+                  <div class="table-Div">
+                    <p>15: 00</p>
+                    <p>0 tables</p>
+                  </div>
+                  <div class="table-Div">
+                    <p>16: 00</p>
+                    <p>0 tables</p>
+                  </div>
+                  <div class="table-Div__hover">
+                    <p>17: 00</p>
+                    <p>2 tables</p>
+                  </div>
+                  <div class="table-Div__hover">
+                    <p>18: 00</p>
+                    <p>3 tables</p>
+                  </div>
+                  <div class="table-Div__hover">
+                    <p>19: 00</p>
+                    <p>2 tables</p>
+                  </div>
+                </div>
+                <div class="check-box">
+                  <h1>People:</h1>
+                  <div class="main-form__field">
+                    <input type="radio" id="vehicle1" name="gender" value="Men" />
+                    <label class="vehicle1" for="vehicle1">2</label>
+                  </div>
+                  <div class="main-form__field">
+                    <input
+                      width="100%"
+                      type="radio"
+                      id="vehicle1"
+                      name="gender"
+                      value="Female"
+                    />
+                    <label class="vehicle2" for="vehicle1">3-4 </label>
+                    <div class="custumers-logo">
+                      <img src="./src/images/11.svg" alt="">
+                      <p>Customers favorite</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="button" type="submit">BOOK NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="images-Div">
         <div class="view-section">
           <div class="view-section__tittle">
             <p>Photos from Casa Del Rio</p>
@@ -38,13 +270,13 @@
               </li>
               <li>
                 <img src="./src/images/Rectangle 357.svg" />
-                <div class="centered">+ 6 more photos</div>
+                <p class="centered">+ 6 more photos</p>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="cards-Div">
         <div class="card-section">
           <div class="card-section__tittle">
             <p>You may also like:</p>
@@ -91,7 +323,7 @@
 
     <footer id="footer" class="main_footer">
       <div class="container">
-        <div class="footerWrap">
+        <div class="footer-Wrap">
           <div class="footer-logo">
             <img src="./src/images/DINING.svg" alt="" />
           </div>
@@ -113,7 +345,7 @@
               <li>Cookie Policy</li>
               <li>Terms of use</li>
             </ul>
-            <ul>
+            <ul class="list2">
               <li>Facebook</li>
               <li>Twitter</li>
               <li>Linkedin</li>
@@ -127,6 +359,6 @@
       </div>
     </footer>
   </body>
-
+  
   <script src="dist/js/app.min.js" type="text/javascript"></script>
 </html>

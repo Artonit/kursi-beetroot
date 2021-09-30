@@ -1,114 +1,467 @@
 body {
   @include flexCenter(true, false);
+  background: #e5e5e5;
 }
-.card-section {
-  width: 1231px;
-  .container {
-    background: #131313;
-    width: 1213px;
-  }
 
-  &__tittle {
-    padding-bottom: 40px;
+.slider-Div {
+  img {
+    filter: brightness(0.5);
+  }
+}
+
+.slider-Text {
+  position: absolute;
+  top: 8.5%;
+  left: 200px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 84px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.booking-Div {
+  background-color: white;
+  border-radius: 10px;
+  padding: 13px;
+  width: 495px;
+}
+
+.select-Date__Div {
+  display: flex;
+  border-radius: 10px;
+
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 17px;
+  width: 433px;
+}
+
+.book-Table__Text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.bookingFormatText {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 437px;
+  color: #5a5a5a;
+}
+
+.booking-Date {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* identical to box height */
+
+  color: #5a5a5a;
+}
+
+.main-Booking__Div {
+  transform: translate(25px, -24%);
+}
+.tables {
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 12px;
+  padding-left: 18px;
+}
+.available-Tables__Div {
+  width: 433px;
+  .booking-Available {
+    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #5a5a5a;
+    font-family: Poppins;
+  }
+}
+
+.table-Div {
+  background: #eaf0f5;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 10px;
+  color: #b5b5b5;
+  font-size: 18px;
+  width: 100px;
+
+  p:nth-of-type(2) {
+    color: #727272;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+}
+.table-Div__hover {
+  background: #eaf0f5;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 10px;
+  color: #b5b5b5;
+  font-size: 18px;
+  width: 100px;
+
+  p:nth-of-type(2) {
+    color: #727272;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+}
+.table-Div__hover:hover {
+  background: #1c870a;
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+
+  p {
+    background: #1c870a;
+    color: #ffffff;
+  }
+}
+
+.check-box {
+  display: flex;
+  padding-left: 31px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 421px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  font-size: 18px;
+
+  h1 {
+    font-size: 16px;
+  }
+  .vehicle1 {
     font-family: Poppins;
     font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 45px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
 
-    color: #1f1f1f;
-    text-align: center;
+    color: #333333;
   }
-  .cards {
+
+  .vehicle2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #333333;
+  }
+  .vehicle1::after {
+    content: "(35 kr/pp)";
+    font-size: 15px;
+    padding-left: 4px;
+  }
+  .main-form__field:hover {
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+  }
+  .vehicle2::after {
+    content: "(25 kr/pp)";
+    font-size: 15px;
+  }
+  .custumers-logo {
+    display: flex;
+    padding-left: 18px;
+    img {
+      padding-right: 10px;
+    }
+  }
+  p {
+    font-size: 12px;
+    text-align: end;
+  }
+}
+.button {
+  width: 432px;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  background: #b01212;
+  margin-left: 20px;
+  color: white;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 18px;
+}
+
+.cards-Div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  .card-section {
     width: 1231px;
-    padding-bottom: 20%;
-    &-text {
-      display: flex;
-      flex-direction: column;
-      width: 255px;
+    .container {
+      background: #131313;
+      width: 1213px;
+    }
+
+    &__tittle {
+      padding-bottom: 40px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 45px;
+
+      color: #1f1f1f;
+      text-align: center;
+    }
+    .cards {
+      width: 1231px;
+      padding-bottom: 20%;
+
+      &-text {
+        display: flex;
+        flex-direction: column;
+        width: 255px;
+      }
+      ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 13px;
+      }
+      li {
+        border: 1px solid white;
+        width: 298px;
+
+        background: #ffffff;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+      }
+      h3 {
+        font-family: Poppins;
+        padding-bottom: 20px;
+        font-weight: 500;
+        font-size: 19px;
+        padding-top: 20px;
+        padding-left: 10px;
+
+        color: #000000;
+      }
+
+      p {
+        font-family: Poppins;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        font-weight: 300;
+        font-size: 16px;
+
+        color: #444444;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 125px;
+        &:nth-of-type(2) {
+          width: 264px;
+        }
+        &:nth-of-type(1):before {
+          content: "City:";
+          color: rgba(0, 0, 0, 0.35);
+        }
+        &:nth-of-type(2):before {
+          content: "Food:";
+          color: rgba(0, 0, 0, 0.35);
+        }
+      }
+    }
+  }
+}
+.images-Div {
+  display: flex;
+  justify-content: center;
+
+  .view-section {
+    &__tittle {
+      margin-bottom: 50px;
+      font-family: Poppins;
+      text-align: center;
+      font-weight: 600;
+      font-size: 30px;
+
+      color: #1f1f1f;
+    }
+    .views {
+      margin-bottom: 22%;
+    }
+    .centered {
+      position: absolute;
+      margin-top: -110px;
+      right: 15%;
+      color: white;
+
+      font-family: Poppins;
+      font-size: 20px;
+      color: #ffffff;
     }
     ul {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       column-gap: 13px;
+      :hover {
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+      }
     }
     li {
-      border: 1px solid white;
-      width: 298px;
-
-      background: #ffffff;
-      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-      border-radius: 6px;
+      width: 299px;
     }
-    h3 {
-      font-family: Poppins;
-      padding-bottom: 20px;
-      font-weight: 500;
-      font-size: 19px;
-
-      color: #000000;
-    }
-
-    p {
-      font-family: Poppins;
-      padding-bottom: 20px;
-
-      font-weight: 300;
-      font-size: 16px;
-
-      color: #444444;
-    }
-    p::before {
-      content: "City:";
-      font-family: Poppins;
-
-      font-weight: 300;
-      font-size: 14px;
-
-      color: rgba(0, 0, 0, 0.35);
+    li:nth-of-type(1) {
+      grid-column: span 2;
+      grid-row: span 2;
+      width: 609px;
     }
   }
 }
 
-.view-section {
-  width: 1226px;
-  &__tittle {
-    margin-bottom: 50px;
-  }
-  .views {
-    margin-bottom: 22%;
+.about-section {
+  width: 100%;
+  display: flex;
 
-    .centered {
-      position: absolute;
-      top: 50%;
-      color: white;
-      right: 3%;
-      font-family: Poppins;
-      font-size: 20px;
-      color: #ffffff;
+  .about-info__text {
+    padding-bottom: 25%;
+    padding-top: 40px;
+    ul {
+      width: 705px;
     }
-  }
-  li:nth-of-type(1) {
-    grid-column: span 2;
-    grid-row: span 2;
-    width: 609px;
-  }
 
-  &__tittle {
-    font-family: Poppins;
-    text-align: center;
-    font-weight: 600;
-    font-size: 30px;
+    li {
+      p:nth-of-type(1) {
+        font-family: Poppins;
+        font-size: 16px;
 
-    color: #1f1f1f;
-  }
+        color: rgba(85, 85, 85, 0.95);
+      }
+    }
 
-  ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 13px;
-  }
-  li {
-    width: 299px;
+    li:not(:last-child) {
+      padding-bottom: 50px;
+    }
+    .location {
+      display: flex;
+      flex-direction: row;
+      font-family: Poppins;
+      font-size: 16px;
+      color: rgba(85, 85, 85, 0.95);
+    }
+
+    span {
+      min-width: 100px;
+    }
+    .about {
+      line-height: 22px;
+      display: flex;
+      flex-direction: row;
+
+      font-family: Poppins;
+
+      font-size: 16px;
+
+      color: rgba(85, 85, 85, 0.95);
+      a {
+        color: #b01212;
+      }
+    }
+    .food {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      font-family: Poppins;
+      font-size: 16px;
+
+      color: rgba(85, 85, 85, 0.95);
+      .food-info ul {
+        display: flex;
+        width: 530px;
+        justify-content: space-between;
+        list-style: disc;
+        padding-left: 15px;
+      }
+    }
+    .drinks {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      font-family: Poppins;
+      font-size: 16px;
+      color: rgba(85, 85, 85, 0.95);
+      &-info ul {
+        display: flex;
+        width: 412px;
+        justify-content: space-between;
+        list-style: disc;
+        padding-left: 15px;
+      }
+    }
+    .info {
+      display: flex;
+      flex-direction: row;
+
+      font-family: Poppins;
+
+      font-size: 16px;
+
+      color: rgba(85, 85, 85, 0.95);
+    }
+    .location-info {
+      justify-content: space-between;
+      display: flex;
+      width: 580px;
+    }
+
+    .food-menu__logo {
+      display: flex;
+      img {
+        padding-right: 10px;
+      }
+    }
+
+    .reviews {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      textarea {
+        border: 1px solid #e5e5e5;
+        resize: none;
+        background: #c4c4c4;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        width: 606px;
+        height: 389px;
+      }
+    }
   }
 }
