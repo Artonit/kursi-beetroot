@@ -4,13 +4,17 @@
     column-gap: 13px;
     row-gap: 10px;
   }
-  .slider-Text {
-    top: 3.1%;
-    left: 14px;
-    font-size: 42px;
+
+  .view-section .views .centered {
+    right: 18%;
   }
-  .search-Bar {
-    width: 437px;
+  .slider-Div .slider-Text {
+    top: 2.7%;
+    left: 40px;
+    font-size: 25px;
+  }
+  .header-Wrap .search-Bar {
+    width: 435px;
   }
   .main-Booking__Div {
     transform: translate(-118%, 85%);
@@ -25,6 +29,9 @@
     grid-template-columns: repeat(2, 1fr);
     row-gap: 13px;
     padding-left: 70px;
+  }
+  .container .footer-Wrap .footer-navigation {
+    display: flex;
   }
 }
 
@@ -48,6 +55,9 @@
     .location .location-info {
       display: flex;
       flex-direction: column;
+      p {
+        padding-bottom: 10px;
+      }
     }
   }
   .about-section .about-info .food .food-info {
@@ -95,8 +105,8 @@
       .booking-Date {
         width: 100px;
       }
-      input {
-        width: 300px;
+      .select-Date__Div {
+        width: 289px;
       }
       .available-Tables__Div {
         width: 326px;
@@ -111,14 +121,17 @@
         margin-left: 22px;
       }
       .check-box {
-        width: 315px;
+        width: 345px;
         font-size: 15px;
         h1 {
           padding-right: 8px;
-          margin-top: 15px;
+          margin-top: 4px;
         }
         .main-form__field {
           width: 130px;
+          .custumers-logo img {
+            padding-left: 27px;
+          }
         }
       }
       .button {
@@ -128,17 +141,21 @@
   }
 
   .images-Div {
-    margin-top: 170%;
+    margin-top: 175%;
     width: 374px;
+    .view-section__tittle {
+      font-size: 21px;
+    }
   }
 
   .slider-Div {
     margin-top: 126px;
     width: 374px;
-    P {
-      left: 10px;
+    .slider-Text {
       font-size: 20px;
-      top: 3.1%;
+
+      top: 3%;
+      left: 24px;
     }
   }
   .footer-Wrap {
@@ -160,6 +177,9 @@
   .cards-Div .card-section {
     width: 281px;
   }
+  .card-section .card-section__tittle {
+    font-size: 21px;
+  }
   .cards-Div .card-section .cards ul {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 13px;
@@ -169,15 +189,17 @@
     width: 375px;
     ul {
       grid-template-columns: repeat(1, 1fr);
-      column-gap: 0px;
+      column-gap: 1px;
+      row-gap: 10px;
       li:nth-of-type(1) {
         width: 374px;
       }
       li {
-        width: 188px;
+        width: 182px;
         .centered {
-          margin-top: -85px;
-          right: 4%;
+          margin-top: -75px;
+          right: 7%;
+          font-size: 16px;
         }
       }
     }
