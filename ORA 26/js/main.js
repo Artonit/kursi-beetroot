@@ -5,17 +5,17 @@ function findTheEnigma(number) {
     return "Shkruaj nje numer";
   }
   if (number < enigma / 2) {
-    return "Vlera e enigmes eshte oer te pakten dy her me e madhe";
+    return "Vlera e enigmes eshte per te pakten dy her me e madhe";
   }
-  if (number * 2 > enigma) {
+  if (number / 2 > enigma) {
     return "Vlera e enigmes eshte per te pakten dy her me e vogel";
   }
-  if (number == enigma) {
-    return "Vlera e enigmes eshte e sakt";
-  }
-  return "Vlera e enigmes nuk eshte qelluar";
+
+  return number == enigma
+    ? "Vlera e enigmes eshte e sakt"
+    : "Vlera e enigmes nuk eshte qelluar";
 }
-console.log(findTheEnigma(30));
+console.log(findTheEnigma(100));
 
 function colorMessage(color) {
   if (!color) {
