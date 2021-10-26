@@ -9,15 +9,15 @@ function renderNumbersWhile(number) {
   if (number <= 0) {
     return "Ju lutemi shenoni numerin me vlere pozitive!";
   }
-}
-var i = 0;
+  var i = 0;
 
-while (i < 10) {
-  i++;
-  console.log(i);
+  while (i < 10) {
+    i++;
+    console.log(i);
+  }
 }
 
-console.log(renderNumbersWhile(-2));
+renderNumbersWhile(1);
 console.log("---------------------------------------------------------");
 
 // DO-WHILE
@@ -27,8 +27,7 @@ function renderNumbersDoWhile(number) {
 
   if (number == endNumber) {
     return "numer i sakt";
-  }
-  if (number <= 0) {
+  } else if (number <= 0) {
     return "Ju lutemi shenoni numerin me vlere pozitive!";
   }
 }
@@ -49,8 +48,7 @@ function renderNumbersFor(number) {
 
   if (number == endNumber) {
     return "numer i sakt";
-  }
-  if (number <= 0) {
+  } else if (number <= 0) {
     return "Ju lutemi shenoni numerin me vlere pozitive!";
   }
 }
@@ -63,17 +61,15 @@ console.log("---------------------------------------------------------");
 
 // detyra e katert
 
-function renderEvenNumbers(number) {
-  var firstNumber = 10;
-  var endNumber = 20;
-
-  if (firstNumber <= endNumber) {
+function renderEvenNumbers(firstNumber, lastNumber) {
+  if (firstNumber >= lastNumber) {
     return "Numeri i pare duhet te jete me i vogel se numri i dyte!";
-  } else {
-    return "Numri i par eshte me i vogel se numri i dyt";
   }
+  for (var i = firstNumber; i <= lastNumber; i += 2) {
+    console.log(i);
+  }
+
+  return "Numri i par eshte me i vogel se numri i dyt";
 }
-for (var i = 10; i <= 20; i += 2) {
-  console.log(i);
-}
-console.log(renderEvenNumbers(30));
+
+console.log(renderEvenNumbers(1, 30));
