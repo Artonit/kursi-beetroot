@@ -90,43 +90,152 @@
 //   console.log("canceled!");
 // }
 
-var number = 10;
+// var number = 10;
 
-switch (number) {
-  case 5:
-    console.log("numri5");
-    break;
-  case 10:
-    console.log("numri10");
-    break;
-  case 20:
-    console.log("numri20");
-    break;
-  case 30:
-    console.log("numri30");
-    break;
-  default:
-    alert("nuk bon");
-    break;
-}
+// switch (number) {
+//   case 5:
+//     console.log("numri5");
+//     break;
+//   case 10:
+//     console.log("numri10");
+//     break;
+//   case 20:
+//     console.log("numri20");
+//     break;
+//   case 30:
+//     console.log("numri30");
+//     break;
+//   default:
+//     alert("nuk bon");
+//     break;
+// }
 
-function colorMessage(color) {
-  if (!color) {
-    return "Please provide a color";
-  }
-  if (color === "red") {
-    return "Message for red color";
-  } else if (color === "blue") {
-    return "Message for blue color";
-  } else if (color === "yellow") {
-    return "Message for yellow color";
-  } else if (color === "green") {
-    return "Message for green color";
-  } else {
-    return "unknown message";
-  }
-}
+// function colorMessage(color) {
+//   if (!color) {
+//     return "Please provide a color";
+//   }
+//   if (color === "red") {
+//     return "Message for red color";
+//   } else if (color === "blue") {
+//     return "Message for blue color";
+//   } else if (color === "yellow") {
+//     return "Message for yellow color";
+//   } else if (color === "green") {
+//     return "Message for green color";
+//   } else {
+//     return "unknown message";
+//   }
+// }
 
-console.log(colorMessage());
-console.log(colorMessage("blue"));
-console.log(colorMessage("yellow"));
+// console.log(colorMessage());
+// console.log(colorMessage("blue"));
+// console.log(colorMessage("yellow"));
+
+// selector
+
+// var oneElement = document.querySelector(".btn");
+// var allElement = document.querySelectorAll(".btn");
+
+// var elementId = document.getElementById("header-navigation");
+
+// console.log("oneElement", oneElement);
+// console.log("allElement", allElement);
+// console.log("elementId", elementId);
+
+// // end of selector
+
+// elementId.classList.add("jsClass");
+
+// elementId.classList.remove("jsClass");
+
+// setTimeout(() => {
+//   elementId.classList.toggle("jsClass");
+// }, 2000);
+
+// var interval = setInterval(() => {
+//   elementId.classList.toggle("box");
+// }, 2000);
+
+// clearInterval(interval);
+
+var list = document.getElementById("favorite-section__list");
+
+var tittle = "PlayList";
+var description = " Favorite band";
+
+list.insertAdjacentHTML(
+  "beforeend",
+  `<li>
+<h3>QUEEN</h3>
+<h4>BOHEMIAN RHAPSODY</h4>
+</li>`
+);
+list.insertAdjacentHTML(
+  "beforeend",
+  `<li>
+<h3>QUEEN</h3>
+<h4>BOHEMIAN RHAPSODY</h4>
+</li>`
+);
+
+var list = document.getElementById("all-section__list");
+
+var tittle = "PlayList";
+var description = "All songs";
+
+list.insertAdjacentHTML(
+  "beforeend",
+  `<li>
+<h3>LED ZEPPELIN"</h3>
+<h4>STAIRWAY TO HEAVEN</h4>
+</li>`
+);
+list.insertAdjacentHTML(
+  "beforeend",
+  `<li>
+<h3>QUEEN</h3>
+<h4>BOHEMIAN RHAPSODY</h4>
+</li>`
+);
+list.insertAdjacentHTML(
+  "beforeend",
+  `<li>
+<h3>LYNYRD SKYNYRD</h3>
+<h4>FREE BIRD</h4>
+</li>`
+);
+list.insertAdjacentHTML(
+  "beforeend",
+  `<li>
+<h3>DEEP PURPLE</h3>
+<h4>SMOKE ON THE WATER</h4>
+</li>`
+);
+list.insertAdjacentHTML(
+  "beforeend",
+  `<li>
+<h3>JIMI HENDRIX</h3>
+<h4>ALL ALONG THE WATCHTOWER</h4>
+</li>`
+);
+list.insertAdjacentHTML(
+  "beforeend",
+  `<li>
+<h3>AC/DC</h3>
+<h4>BACK IN BLACK</h4>
+</li>`
+);
+list.insertAdjacentHTML(
+  "beforeend",
+  `<li>
+<h3>QUEEN</h3>
+<h4>WE WILL ROCK YOU</h4>
+</li>`
+);
+list.insertAdjacentHTML(
+  "beforeend",
+  `<li>
+<h3>METALLICA</h3>
+<h4>ENTER SANDMAN</h4>
+</li>`
+);

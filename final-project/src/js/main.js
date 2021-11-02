@@ -8,9 +8,11 @@
       defaultEasing = [0.4, 0.0, 0.2, 1];
     //End Variables
 
-    console.log(
-      "%c Developed by: beetroot Digital Agency http://beetroot.net",
-      "padding:9px 5px; background:#3c4952; line-height:25px;color: #59bf9d"
-    );
+    var element = document.querySelector(".header-Wrap");
+
+    setTimeout(() => {
+      element.classList.add("separation-Div");
+    }, 2000);
+    element.classList.remove("header-Wrap");
   });
 })(window.jQuery, window, document);

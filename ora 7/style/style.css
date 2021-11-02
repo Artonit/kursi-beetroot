@@ -171,3 +171,54 @@
 .block-list__item p {
   flex: 1;
 }
+
+.favorite-section {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.favorite-section__title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.favorite-section__list {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.favorite-section__list li {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  list-style-type: none;
+  border: 1px solid grey;
+}
+
+.all-section {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.all-section__title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.all-section__list {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: repeat(4, 2fr);
+}
+
+.all-section__list li {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  list-style-type: none;
+  border: 1px solid grey;
+}
