@@ -255,9 +255,3 @@ document
   .querySelector(".modal__close-bar span")
 
   .addEventListener("click", toggleModal);
-
-document.addEventListener("keydown", function (event) {
-  if (event.code == "KeyZ" && (event.ctrlKey || event.metaKey)) {
-    alert("Undo!");
-  }
-});
