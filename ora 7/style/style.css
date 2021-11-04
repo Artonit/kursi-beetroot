@@ -27,6 +27,8 @@
   color: #173a56;
   border: 1px solid #bcd0e5;
   background-color: transparent;
+  width: 130px;
+  height: 47px;
 }
 
 .btn--large {
@@ -221,4 +223,68 @@
   border-radius: 10px;
   list-style-type: none;
   border: 1px solid grey;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal--hidden {
+  display: none;
+}
+
+.modal__contents {
+  background-color: white;
+
+  width: 413px;
+}
+
+h3 {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+form {
+  padding: 10px;
+  padding-left: 180px;
+}
+
+.modal__contents p {
+  border-bottom: 1px solid black;
+  padding: 18px;
+}
+
+.modal__close-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: -35px;
+  cursor: pointer;
+}
+.modal__contents button {
+  background-color: blue;
+  border: none;
+  color: white;
+
+  cursor: pointer;
+  width: 107px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.modal__contents button:last-child {
+  background-color: grey;
+  border: none;
+  color: white;
+
+  cursor: pointer;
+  width: 107px;
+  height: 40px;
+  border-radius: 5px;
 }

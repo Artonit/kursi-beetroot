@@ -158,84 +158,106 @@
 
 // clearInterval(interval);
 
-var list = document.getElementById("favorite-section__list");
+// var list = document.getElementById("favorite-section__list");
 
-var tittle = "PlayList";
-var description = " Favorite band";
+// var tittle = "PlayList";
+// var description = " Favorite band";
 
-list.insertAdjacentHTML(
-  "beforeend",
-  `<li>
-<h3>QUEEN</h3>
-<h4>BOHEMIAN RHAPSODY</h4>
-</li>`
-);
-list.insertAdjacentHTML(
-  "beforeend",
-  `<li>
-<h3>QUEEN</h3>
-<h4>BOHEMIAN RHAPSODY</h4>
-</li>`
-);
+// list.insertAdjacentHTML(
+//   "beforeend",
+//   `<li>
+// <h3>QUEEN</h3>
+// <h4>BOHEMIAN RHAPSODY</h4>
+// </li>`
+// );
+// list.insertAdjacentHTML(
+//   "beforeend",
+//   `<li>
+// <h3>QUEEN</h3>
+// <h4>BOHEMIAN RHAPSODY</h4>
+// </li>`
+// );
 
-var list = document.getElementById("all-section__list");
+// var list = document.getElementById("all-section__list");
 
-var tittle = "PlayList";
-var description = "All songs";
+// var tittle = "PlayList";
+// var description = "All songs";
 
-list.insertAdjacentHTML(
-  "beforeend",
-  `<li>
-<h3>LED ZEPPELIN"</h3>
-<h4>STAIRWAY TO HEAVEN</h4>
-</li>`
-);
-list.insertAdjacentHTML(
-  "beforeend",
-  `<li>
-<h3>QUEEN</h3>
-<h4>BOHEMIAN RHAPSODY</h4>
-</li>`
-);
-list.insertAdjacentHTML(
-  "beforeend",
-  `<li>
-<h3>LYNYRD SKYNYRD</h3>
-<h4>FREE BIRD</h4>
-</li>`
-);
-list.insertAdjacentHTML(
-  "beforeend",
-  `<li>
-<h3>DEEP PURPLE</h3>
-<h4>SMOKE ON THE WATER</h4>
-</li>`
-);
-list.insertAdjacentHTML(
-  "beforeend",
-  `<li>
-<h3>JIMI HENDRIX</h3>
-<h4>ALL ALONG THE WATCHTOWER</h4>
-</li>`
-);
-list.insertAdjacentHTML(
-  "beforeend",
-  `<li>
-<h3>AC/DC</h3>
-<h4>BACK IN BLACK</h4>
-</li>`
-);
-list.insertAdjacentHTML(
-  "beforeend",
-  `<li>
-<h3>QUEEN</h3>
-<h4>WE WILL ROCK YOU</h4>
-</li>`
-);
-list.insertAdjacentHTML(
-  "beforeend",
-  `<li>
-<h3>METALLICA</h3>
-<h4>ENTER SANDMAN</h4>
-</li>`
-);
+// list.insertAdjacentHTML(
+//   "beforeend",
+//   `<li>
+// <h3>LED ZEPPELIN"</h3>
+// <h4>STAIRWAY TO HEAVEN</h4>
+// </li>`
+// );
+// list.insertAdjacentHTML(
+//   "beforeend",
+//   `<li>
+// <h3>QUEEN</h3>
+// <h4>BOHEMIAN RHAPSODY</h4>
+// </li>`
+// );
+// list.insertAdjacentHTML(
+//   "beforeend",
+//   `<li>
+// <h3>LYNYRD SKYNYRD</h3>
+// <h4>FREE BIRD</h4>
+// </li>`
+// );
+// list.insertAdjacentHTML(
+//   "beforeend",
+//   `<li>
+// <h3>DEEP PURPLE</h3>
+// <h4>SMOKE ON THE WATER</h4>
+// </li>`
+// );
+// list.insertAdjacentHTML(
+//   "beforeend",
+//   `<li>
+// <h3>JIMI HENDRIX</h3>
+// <h4>ALL ALONG THE WATCHTOWER</h4>
+// </li>`
+// );
+// list.insertAdjacentHTML(
+//   "beforeend",
+//   `<li>
+// <h3>AC/DC</h3>
+// <h4>BACK IN BLACK</h4>
+// </li>`
+// );
+// list.insertAdjacentHTML(
+//   "beforeend",
+//   `<li>
+// <h3>QUEEN</h3>
+// <h4>WE WILL ROCK YOU</h4>
+// </li>`
+// );
+// list.insertAdjacentHTML(
+//   "beforeend",
+//   `<li>
+// <h3>METALLICA</h3>
+// <h4>ENTER SANDMAN</h4>
+// </li>`
+// );
+
+const toggleModal = () => {
+  document.querySelector(".modal").classList.toggle("modal--hidden");
+};
+
+document.querySelector("#show-modal").addEventListener("click", toggleModal);
+
+document.querySelector("#learn-more").addEventListener("submit", (event) => {
+  event.prenevtDefault();
+  toggleModal();
+});
+
+document
+  .querySelector(".modal__close-bar span")
+
+  .addEventListener("click", toggleModal);
+
+document.addEventListener("keydown", function (event) {
+  if (event.code == "KeyZ" && (event.ctrlKey || event.metaKey)) {
+    alert("Undo!");
+  }
+});
