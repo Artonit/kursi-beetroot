@@ -246,12 +246,15 @@ const toggleModal = () => {
 
 document.querySelector("#show-modal").addEventListener("click", toggleModal);
 
-document.querySelector("#learn-more").addEventListener("submit", (event) => {
-  event.prenevtDefault();
-  toggleModal();
-});
-
 document
   .querySelector(".modal__close-bar span")
 
   .addEventListener("click", toggleModal);
+
+var modal = document.querySelector(".modal");
+
+window.addEventListener("keydown", function (event) {
+  if (!modal.classList.contains("modal--hidden") && event.key == "Escape") {
+    toggleModal();
+  }
+});
