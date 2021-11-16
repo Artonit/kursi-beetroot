@@ -7,9 +7,15 @@ body {
   padding-top: 20px;
   text-align: center;
 }
+
+.slick-prev {
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
 h2 {
   font-family: sans-serif;
-  color: #fff;
+  color: lightblue;
 }
 .carousel {
   width: 90%;
@@ -57,7 +63,7 @@ i {
   width: 20px;
   height: 20px;
   border-radius: 10px;
-  background-color: white;
+  background-color: orange;
   border: none;
 }
 .four {
@@ -85,6 +91,8 @@ i {
   background: #000;
   border-radius: 15px;
   border-color: transparent;
+  width: 50px;
+  height: 50px;
 }
 .card {
   border: 2px solid #fff;

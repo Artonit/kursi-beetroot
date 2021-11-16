@@ -1,0 +1,335 @@
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.product-div {
+  width: 1248px;
+  margin-top: 100px;
+  border-radius: 70px;
+  background: #f6f7fb;
+  border: none;
+  display: flex;
+  padding-left: 82px;
+  .product-upline {
+    font-family: Montserrat;
+    font-style: italic;
+
+    font-size: 16px;
+    margin-top: 188px;
+    color: #2975ff;
+  }
+
+  .product-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    width: 483px;
+    color: #1a202c;
+    margin-bottom: 55px;
+    h2 {
+      margin-top: 27px;
+      margin-bottom: 50px;
+    }
+  }
+  .product-button {
+    font-size: 20px;
+    width: 184px;
+    height: 64px;
+    left: 96px;
+    top: 360px;
+    background: #1a3078;
+    border-radius: 32px;
+    border: none;
+    color: white;
+    margin-bottom: 170px;
+  }
+}
+
+.category-section {
+  margin-top: 200px;
+}
+.category-title h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 70px;
+  color: #1a202c;
+  margin-top: 200px;
+}
+.owl-carousel .item {
+  margin-bottom: 100px;
+}
+
+.list {
+  margin: 0px auto;
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 47px;
+  row-gap: 62px;
+}
+.list-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+
+  color: #1a202c;
+}
+.list-element {
+  margin: 25px 0px;
+  font-family: arial;
+
+  padding: 10px 0px;
+  color: #2196f3;
+  font-size: 20px;
+  text-align: center;
+
+  display: none;
+}
+.list-element:nth-child(1)::after {
+  transform: translate(83px, -364px);
+  font-size: 26px;
+  width: 81px;
+  position: absolute;
+  content: "20%";
+  background-color: red;
+  color: #fff;
+  border-radius: 20px;
+}
+.list-element:nth-child(2)::after {
+  transform: translate(83px, -341px);
+  font-size: 26px;
+  width: 81px;
+  position: absolute;
+  content: "50%";
+  background-color: red;
+  color: #fff;
+  border-radius: 20px;
+}
+.list-element:nth-child(7)::after {
+  transform: translate(83px, -364px);
+  font-size: 26px;
+  width: 81px;
+  position: absolute;
+  content: "5%";
+  background-color: red;
+  color: #fff;
+  border-radius: 20px;
+}
+.list-element:nth-child(9)::after {
+  transform: translate(83px, -364px);
+  font-size: 26px;
+  width: 81px;
+  position: absolute;
+  content: "20%";
+  background-color: red;
+  color: #fff;
+  border-radius: 20px;
+}
+.list-element:nth-child(10)::after {
+  transform: translate(83px, -341px);
+  font-size: 26px;
+  width: 81px;
+  position: absolute;
+  content: "50%";
+  background-color: red;
+  color: #fff;
+  border-radius: 20px;
+}
+.list-element:nth-child(15)::after {
+  transform: translate(83px, -364px);
+  font-size: 26px;
+  width: 81px;
+  position: absolute;
+  content: "5%";
+  background-color: red;
+  color: #fff;
+  border-radius: 20px;
+}
+.list-element:nth-child(19)::after {
+  transform: translate(83px, -364px);
+  font-size: 26px;
+  width: 81px;
+  position: absolute;
+  content: "5%";
+  background-color: red;
+  color: #fff;
+  border-radius: 20px;
+}
+
+#loadmore {
+  font-family: Montserrat;
+  margin: 50px auto 0px;
+  display: table;
+  border: none;
+
+  font-size: 18px;
+  cursor: pointer;
+  color: #fff;
+  padding: 16px 40px;
+  background: #1a3078;
+  border-radius: 32px;
+  margin-bottom: 100px;
+}
+.list .list-element:nth-child(1) {
+  display: block;
+}
+.list .list-element:nth-child(2) {
+  display: block;
+}
+.list .list-element:nth-child(3) {
+  display: block;
+}
+.list .list-element:nth-child(4) {
+  display: block;
+}
+.list .list-element:nth-child(5) {
+  display: block;
+}
+.list .list-element:nth-child(6) {
+  display: block;
+}
+.list .list-element:nth-child(7) {
+  display: block;
+}
+.list .list-element:nth-child(8) {
+  display: block;
+}
+.list .list-element:nth-child(9) {
+  display: block;
+}
+.list .list-element:nth-child(10) {
+  display: block;
+}
+.list .list-element:nth-child(11) {
+  display: block;
+}
+.list .list-element:nth-child(12) {
+  display: block;
+}
+
+.product1 {
+  background: #f6f7fb;
+  border-radius: 70px;
+}
+.creams-two {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  margin-top: 44px;
+  margin-bottom: 27px;
+  color: #1a202c;
+  text-align: left;
+  margin-left: 12px;
+}
+.creams-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+}
+.creams-text__cream {
+  margin-left: 10px;
+  display: flex;
+  width: 87px;
+  justify-content: space-between;
+}
+.creams-text__one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 170px;
+}
+.cards-text p {
+  margin-left: 3px;
+  padding: 10px;
+  width: 108px;
+  border: none;
+  background: rgba(255, 193, 35, 0.1);
+  color: #ffc123;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 20px;
+  text-align: center;
+}
+.list-element {
+  h5 {
+    text-decoration-line: line-through;
+    color: darkgrey;
+    transform: translatey(13px);
+    font-size: 17px;
+  }
+  h4 {
+    color: #1a202c;
+    transform: translateY(11px);
+  }
+  .pink {
+    width: 123px;
+    border: none;
+    background: rgba(255, 102, 160, 0.1);
+    color: #ff66a0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .lightblue {
+    width: 130px;
+    border: none;
+    background: rgba(0, 204, 150, 0.1);
+    color: #1a3078;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .orange {
+    width: 123px;
+    border: none;
+    background: rgba(255, 193, 35, 0.1);
+    color: #ffc123;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .blue {
+    background: rgba(41, 117, 255, 0.1);
+    width: 108px;
+    border: none;
+
+    color: #2975ff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 20px;
+    text-align: center;
+  }
+}
