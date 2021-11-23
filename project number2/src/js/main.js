@@ -6,7 +6,7 @@
 
 // console.log(document.cookie);
 
-// const check = document.getElementById("check");
+const check = document.getElementById("check");
 
 //If darkMode doesn’t exist in the LocalStorage, create t. False by default
 if (localStorage.getItem("darkMode") === null) {
@@ -24,6 +24,7 @@ function checkStatus() {
   } else {
     check.checked = false;
     document.getElementsByTagName("p")[0].style.color = "black";
+
     document.body.style.backgroundColor = "#FFF";
   }
 }

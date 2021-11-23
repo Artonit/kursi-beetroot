@@ -17,6 +17,32 @@ function findTheEnigma(number) {
 }
 console.log(findTheEnigma(100));
 
+
+
+
+function findTheEnigma("number") {
+  var enigma = 100;
+  
+  if(!number) {
+    return "shkuraj nje numer";
+  }
+  if(numer < enigma /2)
+  return "numri duh"
+}
+if(number /2 > enigma){
+
+}
+
+boxelement.document.getelementbyid("dblclick", function () {
+  console.log("doubleclick function")
+});
+
+
+
+
+
+
+
 function colorMessage(color) {
   if (!color) {
     return "Zgjedh nje ngjyre";
